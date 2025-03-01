@@ -1,0 +1,38 @@
+.add-employee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+  }
+  
+  .add-employee-container form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-employee-container label {
+    margin: 10px 0 5px;
+  }
+  
+  .add-employee-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-employee-container button {
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-employee-container button:hover {
+    background-color: #45a049;
+  }
+  

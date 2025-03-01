@@ -1,0 +1,38 @@
+.employee-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+  }
+  
+  .employee-details-container form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .employee-details-container label {
+    margin: 10px 0 5px;
+  }
+  
+  .employee-details-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .employee-details-container button {
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .employee-details-container button:hover {
+    background-color: #45a049;
+  }
+  
